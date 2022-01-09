@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Package
+  - DeliveryPoint
+  - Building
+  - Foliage
+  - Timer
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Minimap
+  - Roads
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 2373919385
+    locked: 0
+  - name: Roads
+    uniqueID: 3647816547
+    locked: 0
+  - name: Buildings
+    uniqueID: 2774431697
+    locked: 0
+  - name: Decorations
+    uniqueID: 1014073595
+    locked: 0
+  - name: Pick-ups
+    uniqueID: 872367589
+    locked: 0
+  - name: Player
+    uniqueID: 961681053
+    locked: 0
+  - name: UI
+    uniqueID: 661674917
+    locked: 0
