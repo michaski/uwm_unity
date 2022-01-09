@@ -4,8 +4,8 @@ Gra polega na jeżdżeniu samochodem, odbieraniu przesyłek i dostarczaniu ich w
 ## Źródła wykorzystanych assetów:
 
 1. Samochody:
- - https://looneybits.itch.io/2d-sport-cars
  - https://looneybits.itch.io/2d-urban-cars
+ - https://looneybits.itch.io/2d-sport-cars
 2. Roślinność:
  - https://opengameart.org/content/trees-top-down-fake-shadow
  - https://opengameart.org/content/top-down-foliage-collection
