@@ -88,6 +88,7 @@ public class GameNavigation : MonoBehaviour
         GameScreen.SetActive(true);
         GameScreen.GetComponent<AudioSource>().Play();
         _gameTimer.StartTimer();
+        _gameState = GameState.InGame;
     }
 
     public void OnExitButtonClicked()

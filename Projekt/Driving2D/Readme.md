@@ -3,14 +3,17 @@ Gra polega na jeżdżeniu samochodem, odbieraniu przesyłek i dostarczaniu ich w
 
 ## Źródła wykorzystanych assetów:
 
-1. Samochody:
+1. Samochody (razem z odgłosami drzwi):
  - https://looneybits.itch.io/2d-urban-cars
  - https://looneybits.itch.io/2d-sport-cars
 2. Roślinność:
  - https://opengameart.org/content/trees-top-down-fake-shadow
  - https://opengameart.org/content/top-down-foliage-collection
-3. Muzyka:
+3. Tekstura trawy:
+ - https://opengameart.org/content/synthetic-grass-texture-pack
+4. Muzyka:
  - https://opengameart.org/content/race-of-the-wasp
  - https://opengameart.org/content/winning-the-race
-4. Czcionka:
+5. Czcionka:
  - https://www.fontsquirrel.com/fonts/Komika-Display
+6. Pozostałe (ikony, domy, droga, paczka) - wykonane samodzielnie
