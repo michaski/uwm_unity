@@ -7,7 +7,6 @@ using UnityEngine;
 public class Timer : MonoBehaviour
 {
     public TextMeshProUGUI TimerText;
-    public GameObject GameOverCanvas;
 
     [NonSerialized]
     public bool IsRunning = false;
@@ -68,6 +67,5 @@ public class Timer : MonoBehaviour
     {
         OnTimerFinished();
         IsRunning = false;
-        GameOverCanvas.SetActive(true);
     }
 }

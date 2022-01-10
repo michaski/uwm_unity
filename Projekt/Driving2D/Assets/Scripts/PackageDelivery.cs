@@ -14,6 +14,8 @@ public class PackageDelivery : MonoBehaviour
     public TextMeshProUGUI CurrentDeliveryText;
     public GameObject OnHitMessage;
     
+    public int Points { get => _points; }
+    
     private int _points = 0;
     private int _deliveryPoints = 0;
     private const int PACKAGE_DELIVERY_POINT_BONUS = 10;

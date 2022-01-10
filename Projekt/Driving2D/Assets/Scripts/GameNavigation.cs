@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using TMPro;
 using UnityEngine;
 
 enum GameState {
@@ -18,6 +19,7 @@ public class GameNavigation : MonoBehaviour
     public GameObject GameScreen;
     public GameObject PauseScreen;
     public GameObject GameOverScreen;
+    public PackageDelivery ScoringScript;
 
     private Timer _gameTimer;
     private GameState _gameState = GameState.MainMenu;
@@ -26,7 +28,7 @@ public class GameNavigation : MonoBehaviour
     {
         _gameTimer = GameObject.FindGameObjectWithTag("Timer")
             .GetComponent<Timer>();
-        _gameTimer.OnTimerFinished = StopGameSound;
+        _gameTimer.OnTimerFinished = EndGame;
     }
 
     void Update()
@@ -116,9 +118,13 @@ public class GameNavigation : MonoBehaviour
         Application.Quit();
     }
 
-    void StopGameSound()
+    void EndGame()
     {
         _gameState = GameState.GameOver;
+        GameOverScreen.GetComponentsInChildren<TextMeshProUGUI>()
+            .First(t => t.name == "ScoreText")
+            .text = $"Score: {ScoringScript.Points}";
         GameScreen.GetComponent<AudioSource>().Stop();
+        GameOverScreen.SetActive(true);
     }
 }
